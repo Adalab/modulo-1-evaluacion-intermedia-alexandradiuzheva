@@ -10,7 +10,7 @@
 }
 
 .logo {
-    background-color: chartreuse;
+    background: white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .menu {
-    background-color: chocolate;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -55,5 +55,36 @@
     width: 150px;
     text-align: center;
     line-height: 40px;
-    background-color: coral;
 }
+
+@media all and (min-width: 768px) {
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+        width: 300px;
+    }
+    .items {
+        font-size: 16px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        position: fixed;
+        width: 100%;
+    }
+    .logo {
+        background-color: white;
+        justify-content: left;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .menu {
+        background-color: white;
+        justify-content: right;
+        align-items: center;
+        padding-right: 30px;
+    }
+  }
