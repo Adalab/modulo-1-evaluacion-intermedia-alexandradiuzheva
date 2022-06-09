@@ -2,8 +2,19 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.header {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+}
+
 .logo {
     background-color: chartreuse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 .imagen {
@@ -12,12 +23,21 @@
 
 .menu {
     background-color: chocolate;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 13px;
 }
 
 .items {
     font-size: 16px;
     text-transform: uppercase;
     color: #4a4a4a;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
 }
 
 .main {
@@ -32,7 +52,8 @@
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
-    width: 35%;
+    width: 150px;
     text-align: center;
     line-height: 40px;
+    background-color: coral;
 }
